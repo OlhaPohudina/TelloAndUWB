@@ -1,0 +1,3 @@
+11:31:38 - takeoff
+11:31:47 - routine_quadrato
+11:32:37 - land

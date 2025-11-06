@@ -1,0 +1,5 @@
+11:37:46 - takeoff
+11:37:56 - routine_cerchio
+11:37:56 - curve_xyz_speed 1
+11:38:21 - curve_xyz_speed 2
+11:38:46 - land
