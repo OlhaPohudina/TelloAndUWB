@@ -1,0 +1,18 @@
+units: m
+
+anchors:
+  - id: AN1
+    device_id: DW1616
+    position: [0.70, -1.85, 0.0]
+
+  - id: AN2
+    device_id: DWD0B4
+    position: [1.40, 1.80, 0.0]
+
+  - id: AN3
+    device_id: DW9D8C
+    position: [1.40, 2.40, 0.0]
+
+  - id: AN4
+    device_id: DW4813
+    position: [1.50, -0.20, 0.0]

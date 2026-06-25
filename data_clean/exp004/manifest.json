@@ -1,0 +1,18 @@
+{
+  "date": "2025-11-03",
+  "uwb": {
+    "path": "uwb/uwb.log"
+  },
+  "uwb_time_shift": -5.0,
+  "trim_t_end": 70.0,
+  "drones": {
+    "drone1": {
+      "uwb_id": 0,
+      "vicon": "drone1/vicon.csv"
+    },
+    "drone2": {
+      "uwb_id": 1,
+      "vicon": "drone2/vicon.csv"
+    }
+  }
+}

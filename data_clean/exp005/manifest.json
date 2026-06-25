@@ -1,0 +1,54 @@
+{
+  "date": "2025-11-03",
+  "uwb": {
+    "path": "uwb/uwb.log"
+  },
+  "uwb_time_shift": -8.0,
+  "trim_t_end": 70.0,
+  "drones": {
+    "drone1": {
+      "uwb_id": 0,
+      "vicon": "drone1/vicon.csv",
+      "imu": "drone1/imu.csv",
+      
+      "overrides": {
+        "imu": {
+          "perm": [
+            2,
+            1,
+            3
+          ],
+          "sign": [
+            1,
+            -1,
+            1
+          ],
+          "anchor_points": 5,
+          "time_shift_seconds": 6.0
+        }
+      }
+    },
+    "drone2": {
+      "uwb_id": 1,
+      "vicon": "drone2/vicon.csv",
+      "imu": "drone2/imu.csv",
+ 
+      "overrides": {
+        "imu": {
+          "perm": [
+            2,
+            1,
+            3
+          ],
+          "sign": [
+            1,
+            1,
+            1
+          ],
+          "anchor_points": 5,
+          "time_shift_seconds": 10.0
+        }
+      }
+    }
+  }
+}
